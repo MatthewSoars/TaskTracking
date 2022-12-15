@@ -56,3 +56,6 @@ while running:
         todo_list = pd.DataFrame(todo_list_np)
         todo_list.to_excel(r'List.xlsx', index=False)
         running = False
+
+    else:
+        print("Invalid input, please try again.")
